@@ -4,6 +4,8 @@ rem pull latest updates
 echo .................... Pulling latest updates ....................
 rem git pull
 
+cd C:\Users\pc\cucu_cupboard_repo
+
 git pull 2>nul
 if %errorlevel% == 0 (
   echo Git pull successful.
