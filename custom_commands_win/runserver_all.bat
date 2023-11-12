@@ -24,6 +24,10 @@ cd C:\Users\pc\cucu_cupboard_repo\cucu_cupboard_venv_def_win\Scripts
 
 call activate
 
+cd C:\Users\pc\cucu_cupboard_repo
+
+pip install -r requirements.txt
+
 cd C:\Users\pc\cucu_cupboard_repo\cucu_cupboard_project
 
 rem python manage.py runserver
