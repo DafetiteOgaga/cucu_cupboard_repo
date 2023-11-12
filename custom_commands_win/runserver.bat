@@ -1,11 +1,37 @@
 @echo off
 
+rem pull latest updates
+echo .................... Pulling latest updates ....................
+rem git pull
+
+git pull 2>nul
+if %errorlevel% == 0 (
+  echo Git pull successful.
+) else (
+  echo Git pull failed with error code %errorlevel%. Please check your remote repository connection or maybe you don't have the admin access to this project repository.
+)
+
+echo ...............................................................
+
 rem Starts the local server
 echo .................... Starting local server ....................
 echo Use CTRL + C to quit the server
 echo ...............................................................
 
-python manage.py runserver
+cd C:\Users\pc\cucu_cupboard_repo\cucu_cupboard_venv_def_win\Scripts
+
+call activate
+
+cd C:\Users\pc\cucu_cupboard_repo\cucu_cupboard_project
+
+rem python manage.py runserver
+
+python manage.py runserver 2>nul
+if %errorlevel% == 0 (
+echo Local server.
+) else (
+echo Local server failed to start with error code %errorlevel%. Please check your project configuration and server logs.
+)
 
 rem Stops local server
 echo .................... It will terminate anyways ................
