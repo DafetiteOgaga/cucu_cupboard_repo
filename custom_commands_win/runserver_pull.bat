@@ -3,8 +3,6 @@
 rem pull latest updates
 cd C:\Users\%username%\cucu_cupboard_repo
 
-echo dir: %cd%
-
 git pull 2>nul
 if %errorlevel% == 0 (
   echo Git pull successful.
