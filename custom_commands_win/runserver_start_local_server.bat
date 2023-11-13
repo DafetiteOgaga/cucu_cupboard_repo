@@ -3,7 +3,6 @@
 cd C:\Users\pc\cucu_cupboard_repo\cucu_cupboard_project
 
 rem Starts the local server
-echo ............ Starting local server ............
 echo Use CTRL + C to quit the server
 echo ............................
 
