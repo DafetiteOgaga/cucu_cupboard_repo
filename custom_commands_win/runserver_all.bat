@@ -24,6 +24,8 @@ cd C:\Users\pc\cucu_cupboard_repo\cucu_cupboard_venv_def_win\Scripts
 
 call activate
 
+xcopy C:\Users\pc\cucu_cupboard_repo\custom_commands_win C:\Users\pc\xbin_windows /e
+
 cd C:\Users\pc\cucu_cupboard_repo
 
 pip install -r requirements.txt
