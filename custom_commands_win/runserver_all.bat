@@ -1,8 +1,12 @@
 @echo off
 
-echo ...................................................1
+echo ...................................................0
 echo Pulling latest updates ...
 call runserver_pull.bat
+
+echo ...................................................1
+echo Pushing changes to remote ...
+call runserver_push.bat
 
 echo ...................................................2
 echo Activating virtual environment ...

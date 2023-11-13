@@ -2,8 +2,11 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
+
 def cucu_cupboard_home(request):
-	return HttpResponse('<h1>Welcome Home</h1>')
+	context = {}
+	return render(request, 'cucu_cupboard_app/cucu_home_template.html', context)
 
 def cucu_cupboard_about(request):
-	return HttpResponse('<h1>About page</h1>')
+	context = {'title': 'About'}
+	return render(request, 'cucu_cupboard_app/cucu_about_template.html', context)
