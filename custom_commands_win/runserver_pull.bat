@@ -1,7 +1,7 @@
 @echo off
 
 rem pull latest updates
-echo .................... Pulling latest updates ....................
+echo Pulling latest updates ...
 rem git pull
 
 cd C:\Users\pc\cucu_cupboard_repo
