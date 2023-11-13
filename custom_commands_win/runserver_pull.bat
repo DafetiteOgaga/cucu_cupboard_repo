@@ -1,7 +1,7 @@
 @echo off
 
 rem pull latest updates
-cd C:\Users\pc\cucu_cupboard_repo
+cd C:\Users\%username%\cucu_cupboard_repo
 
 git pull 2>nul
 if %errorlevel% == 0 (

@@ -1,6 +1,6 @@
 @echo off
 
-cd C:\Users\pc\cucu_cupboard_repo\cucu_cupboard_project
+cd C:\Users\%username%\cucu_cupboard_repo\cucu_cupboard_project
 
 rem Starts the local server
 echo Use CTRL + C to quit the server
