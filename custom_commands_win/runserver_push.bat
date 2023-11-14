@@ -1,5 +1,7 @@
 @echo off
 
+cd C:\Users\%username%\cucu_cupboard_repo
+
 REM Add all files to the commit
 git add .
 
