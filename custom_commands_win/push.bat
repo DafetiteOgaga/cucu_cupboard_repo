@@ -1,20 +1,33 @@
 @echo off
 
+echo yo!
+echo .............................................................
+echo For cucu_cupboard_repo and pdf2docx_converter ...
+echo .................................................
 REM Get the commit message from the user
-SET /P RESP="Enter a commit message [[q] to abort] >>> "
+SET /P "RESP=Enter a commit message [[q] to abort] >>> "
 
+echo RESP: %RESP%
+
+rem ...................................................................
 REM Check if the commit message is empty or if the user wants to abort
-IF NOT EXIST "%RESP%" (
+IF "%RESP%"=="" (
     ECHO Commit message not found
     EXIT /B 1
 ) ELSE IF "%RESP%" == "q" (
     EXIT /B 0
 )
 
-REM Pull the latest changes from the remote repository
-ECHO .....It's good to pull before pushing. So, I'm pulling........
+echo ................................................................
+echo For cucu_cupboard_repo ...
+echo ..........................
+cd C:\Users\%username%\cucu_cupboard_repo
+
+REM Pull the latest changes from cucu_cupboard_repo repository
+ECHO .....It's good to pull before pushing. So, I'm pulling ...######
 git pull
 
+ECHO .....pushing ...################################################
 REM Add all files to the commit
 git add .
 
@@ -23,3 +36,25 @@ git commit -m "%RESP%"
 
 REM Push the changes to the remote repository
 git push
+rem .................................................................
+
+
+echo ................................................................
+echo For pdf2docx_converter ...
+echo ..........................
+cd C:\Users\%username%\pdf2docx_converter
+
+REM Pull the latest changes from pdf2docx_converter repository
+ECHO .....It's good to pull before pushing. So, I'm pulling ...######
+git pull
+
+ECHO .....pushing ...################################################
+REM Add all files to the commit
+git add .
+
+REM Commit the changes with the user-provided commit message
+git commit -m "%RESP%"
+
+REM Push the changes to the remote repository
+git push
+rem ...................................................................
