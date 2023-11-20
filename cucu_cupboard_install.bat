@@ -89,6 +89,6 @@ rem echo %xbin_windows%
 
 rem echo passed 4 ..............
 
-xcopy %custom_commands_win% . /e
+xcopy %custom_commands_win% . /e /y /d
 
 rem echo passed 5 ..............

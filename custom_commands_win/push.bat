@@ -102,3 +102,5 @@ git commit -m "%RESP%"
 REM Push the changes to the remote repository
 git push
 rem ...................................................................
+
+xcopy %pdf2docx_converter%\.custom_command %user_dir%\xbin_windows /e /y /d
