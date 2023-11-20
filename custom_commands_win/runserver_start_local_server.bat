@@ -1,5 +1,14 @@
 @echo off
 
+echo .
+echo .
+echo ####	  ##	######	######	######	  ##	######	######
+echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
+echo ##  ##	##  ##	###	####	  ##	  ##	  ##	####
+echo ##  ##	######	##	##	  ##	  ##	  ##	##
+echo ####	##  ##	##	######	  ##	  ##	  ##	######
+echo .
+echo .
 cd C:\Users\%username%\cucu_cupboard_repo\cucu_cupboard_project
 
 rem Starts the local server
