@@ -1,14 +1,7 @@
 @echo off
 
-echo .
-echo .
-echo ####	  ##	######	######	######	  ##	######	######
-echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
-echo ##  ##	##  ##	###	####	  ##	  ##	  ##	####
-echo ##  ##	######	##	##	  ##	  ##	  ##	##
-echo ####	##  ##	##	######	  ##	  ##	  ##	######
-echo .
-echo .
+call name.bat
+
 cd C:\Users\%username%\cucu_cupboard_repo\cucu_cupboard_project
 
 rem Starts the local server

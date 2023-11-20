@@ -1,6 +1,6 @@
 @echo off
 
-rem FDBKl5ddcP3znhsipq7i4hoismaWS44C5cNi
+call name.bat
 
 rem echo ...............................................
 rem echo setting C:\Users\%username% ...
