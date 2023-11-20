@@ -1,5 +1,17 @@
 @echo off
 
+echo .
+echo .
+echo ####	  ##	######	######	######	  ##	######	######
+echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
+echo ##  ##	##  ##	####	####	  ##	  ##	  ##	####
+echo ##  ##	######	##	##	  ##	  ##	  ##	##
+echo ####	##  ##	##	######	  ##	  ##	  ##	######
+echo .
+echo . 💪 We rise by lifting others.
+echo .
+echo .
+
 rem takes the name of the env variable
 rem set /P "custom_command=Enter name of directory: "
 
@@ -43,4 +55,5 @@ for /f "tokens=2,*" %%I in ('reg query "HKCU\Environment" /v PATH ^| find "REG_S
 rem echo UPDATED_ENV_VAR: %UPDATED_ENV_VAR_PATH%
 rem echo ....................................................................
 
+echo We rise by lifting others.
 endlocal
