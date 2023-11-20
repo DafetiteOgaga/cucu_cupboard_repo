@@ -1,10 +1,21 @@
 @echo off
 
-rem change this string to the name of the directory to use for your custom commands
+rem takes the name of the env variable
+rem set /P "custom_command=Enter name of directory: "
+
 set "custom_command=xbin_windows"
 
-
 set "NEW_ENV_VAR=C:\Users\%username%\%custom_command%"
+
+echo ....................................................................
+if exist "%NEW_ENV_VAR%" (
+	echo variable path ok ...
+) else (
+    echo creating variable path ...
+	mkdir %NEW_ENV_VAR%
+)
+echo ....................................................................
+cd %NEW_ENV_VAR%
 echo ....................................................................
 echo NEW_ENV_VAR: %NEW_ENV_VAR%
 echo ....................................................................
