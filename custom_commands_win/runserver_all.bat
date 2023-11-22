@@ -1,26 +1,27 @@
 @echo off
 
+set "repo_path=C:\Users\%username%\cucu_cupboard_repo\custom_commands_win"
 echo ...................................................0
 echo Pulling latest updates ...
-call runserver_pull.bat
+call "%repo_path%runserver_pull.bat"
 
 echo ...................................................1
 echo Pushing changes to remote ...
-call runserver_push.bat
+call "%repo_path%runserver_push.bat"
 
 echo ...................................................2
 echo Activating virtual environment ...
-call runserver_activate_venv.bat
+call "%repo_path%runserver_activate_venv.bat"
 
 echo ...................................................3
 echo Updating dependencies ...
-call runserver_install_dependencies.bat
+call "%repo_path%runserver_install_dependencies.bat"
 
 echo ...................................................4
 echo Updating scripts ...
-call runserer_copy.bat
+call "%repo_path%runserer_copy.bat"
 
 echo ...................................................5
 echo ............ Starting local server ............
-call runserver_start_local_server.bat
+call "%repo_path%runserver_start_local_server.bat"
 echo ...............................................................
