@@ -11,11 +11,10 @@
 
 Click [here](https://github.com/DafetiteOgaga/cucu_cupboard_installation) to install
 
-https://github.com/DafetiteOgaga/cucu_cupboard_repo/assets/133142029/76a6737c-4de4-4876-9b67-b94d57a8181d
-
 <br>
 
 ### Usage
+https://github.com/DafetiteOgaga/cucu_cupboard_repo/assets/133142029/76a6737c-4de4-4876-9b67-b94d57a8181d
 
 After installation, run: `runserver_all` to synchronise and startup the server. Do this everytime that you want to run the project.
 
