@@ -2,7 +2,7 @@
 
 ## Requirements
 - Windows 10 or Linux
-- [Python 3.8 and above](https://github.com/DafetiteOgaga/py_and_git_installations_for_win)
+- [Python 3.1x](https://github.com/DafetiteOgaga/py_and_git_installations_for_win)
 - [Git](https://github.com/DafetiteOgaga/py_and_git_installations_for_win)
 
 <br>
