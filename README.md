@@ -9,7 +9,7 @@
 
 # Installation process
 
-Click [Here](https://github.com/DafetiteOgaga/py_and_git_installations_for_win) to install
+Click [here](https://github.com/DafetiteOgaga/py_and_git_installations_for_win) to install
 
 <br>
 
