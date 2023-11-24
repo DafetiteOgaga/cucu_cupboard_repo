@@ -1,7 +1,3 @@
-
-
-https://github.com/DafetiteOgaga/cucu_cupboard_repo/assets/133142029/76a6737c-4de4-4876-9b67-b94d57a8181d
-
 # Cucu Cupboard
 
 # Requirements
@@ -12,6 +8,8 @@ https://github.com/DafetiteOgaga/cucu_cupboard_repo/assets/133142029/76a6737c-4d
 <br>
 
 # Installation process
+
+https://github.com/DafetiteOgaga/cucu_cupboard_repo/assets/133142029/76a6737c-4de4-4876-9b67-b94d57a8181d
 
 Click [here](https://github.com/DafetiteOgaga/py_and_git_installations_for_win) to install
 
