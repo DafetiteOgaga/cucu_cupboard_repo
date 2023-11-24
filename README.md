@@ -1,13 +1,13 @@
 # Cucu Cupboard
 
-# Requirements
+## Requirements
 - Windows 10 or Linux
 - [Python 3.8 and above](https://github.com/DafetiteOgaga/py_and_git_installations_for_win)
 - [Git](https://github.com/DafetiteOgaga/py_and_git_installations_for_win)
 
 <br>
 
-# Installation process
+## Installation process
 
 https://github.com/DafetiteOgaga/cucu_cupboard_repo/assets/133142029/76a6737c-4de4-4876-9b67-b94d57a8181d
 
