@@ -9,9 +9,9 @@
 
 ## Installation process
 
-**Note: if you fail to meet the Requirements above, you will not be able to install this program. Kindly click on each requirement to fix it.**
+- **Note: if you fail to meet the Requirements above, you will not be able to install this program. Kindly click on each requirement to fix it.**
 
-Click [here](https://github.com/DafetiteOgaga/py_and_git_installations_for_win) to install
+- Click [here](https://github.com/DafetiteOgaga/py_and_git_installations_for_win) to install Cucu Cupboard
 
 <br>
 
