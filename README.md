@@ -28,15 +28,15 @@ This file contains the notable changes made to the Custom Commands project.
 <br>
 
 ## New
-	- works on windows and linux systems
+   - works on windows and linux systems
 
 
 ## Changes
-	- Minor changes to enhance performance
+   - Minor changes to enhance performance
 
 
 ## Fixes
-	- .
+   - .
 
 
 
